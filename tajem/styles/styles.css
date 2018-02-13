@@ -370,6 +370,8 @@
 		margin-bottom: 32px;
 		background: -webkit-gradient( linear, right top, left top, from(rgb(74,163,204)), to(rgb(0,224,208)));
 		background: linear-gradient( to left, rgb(74,163,204) 0%, rgb(0,224,208));
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
 }
 
 
