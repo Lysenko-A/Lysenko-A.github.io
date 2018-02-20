@@ -97,6 +97,7 @@ h1, h2, h3, h4 {
 		text-align: center;
 		color: #ffffff;
 		text-transform: uppercase;
+		overflow: hidden;
 }
 
 .sub-title {
@@ -119,7 +120,8 @@ h1, h2, h3, h4 {
 .box-banking {
 		display: block;
 		position: relative;
-		padding: 165px 0 95px;
+		max-height: 268px;
+		padding: 162px 30px 80px;
 		margin-bottom: 20px;
 		background: #03b6e7;
 		font-size: 20px;
@@ -195,12 +197,13 @@ h1, h2, h3, h4 {
 }
 
 .about {
-	max-width: 676px;
-	margin: 0 auto 60px;
-	text-align: center;
-	line-height: 1.8;
+		max-width: 676px;
+		margin: 0 auto 60px;
+		text-align: center;
+		line-height: 1.8;
+		overflow: hidden;
+}
 
-} 
 
 .title-about {
 	font-size: 32px;
@@ -236,6 +239,10 @@ h1, h2, h3, h4 {
 
 .slick-prev:before, .slick-next:before {
 		color: rgb(205, 216, 219);
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 }
 
 .slick-prev:hover:before, .slick-next:hover:before {
@@ -254,6 +261,10 @@ h1, h2, h3, h4 {
 		left: -45px;
 }
 
+.slick-slide img {
+		width: 100%;
+}
+
 .slick-initialized .slick-slide {
 		padding: 0 15px;
 }
@@ -268,8 +279,9 @@ h1, h2, h3, h4 {
 
 
 .section-features {
-	padding-top: 66px;
-	background: #e7eff1;
+		padding-top: 66px;
+		background: #e7eff1;
+		overflow: hidden;
 }
 
 .item-features {
@@ -381,7 +393,8 @@ h1, h2, h3, h4 {
 .business-boosting {
 		background: #565d5d;
 		padding: 18px 23px 18px 36px;
-		margin-top: 28px;
+		max-width: 940px;
+		margin: 28px auto 0;
 }
 
 .business-boosting span {
@@ -389,6 +402,10 @@ h1, h2, h3, h4 {
 		color: #ffffff;
 		display: block;
 		padding-top: 7px;
+}
+
+.business-boosting .btn-success {
+		float: right;
 }
 
 /*section-features*/
@@ -449,6 +466,7 @@ h1, h2, h3, h4 {
 .section-servis {
 		padding: 96px 0 93px;
 		text-align: center;
+		overflow: hidden;
 }
 
 .section-servis h2 {
@@ -615,6 +633,12 @@ h1, h2, h3, h4 {
 		margin-bottom: 21px;
 }
 
+.owl-pagination {
+		display: flex;
+		justify-content: center;
+		height: 80px;
+}
+
 
 /*section-testimonial*/
 /*section-our-blog*/
@@ -623,6 +647,7 @@ h1, h2, h3, h4 {
 		padding: 70px 0 95px;
 		text-align: center;
 		background: #e7eff1;
+		overflow: hidden;
 }
 
 .section-our-blog h2 {
@@ -705,8 +730,9 @@ h1, h2, h3, h4 {
 .box-email,
 .box-phone,
 .box-career {
+		height: 133px;
 		border: 1px solid rgb(225, 234, 236);
-		padding: 29px 31px 42px 134px;
+		padding: 29px 5px 20px 134px;
 		font-size: 18px;
 }
 
@@ -763,8 +789,11 @@ h1, h2, h3, h4 {
 }
 
 .footer-link {
-		padding-left: 0;
 		margin-bottom: 69px;
+}
+
+.footer-link ul {
+		padding-left: 0;
 }
 
 .footer-link li {
@@ -1027,7 +1056,7 @@ h1, h2, h3, h4 {
 				margin-bottom: 0;
 		}
 		.business-boosting span {
-				font-size: 18px;
+				font-size: 16px;
 		}
 		.item-features {
 				text-align: center;
@@ -1143,6 +1172,9 @@ h1, h2, h3, h4 {
 		.business-boosting span {
 				margin-bottom: 15px;
 		}
+		.business-boosting .btn-success {
+				float: none;
+		}
 		.title-testimonial:before {
 				display: none;
 		}
@@ -1169,6 +1201,9 @@ h1, h2, h3, h4 {
 		}
 		.item-features span {
 				font-size: 12px;
+		}
+		.business-boosting {
+				padding: 18px 10px 18px;
 		}
 		.list-one {
 				float: right;
