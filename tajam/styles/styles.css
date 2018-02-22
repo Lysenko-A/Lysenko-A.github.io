@@ -309,7 +309,7 @@
 
 .title-expertise {
 		color: #413d4b;
-		margin-bottom: 10px;
+		margin-bottom: 30px;
 }
 
 .subtitle-expertise {
@@ -318,7 +318,7 @@
 		padding-bottom: 21px;
 		position: relative;
 		letter-spacing: 1px;
-		margin-bottom: 100px;
+		margin-bottom: 80px;
 }
 
 .subtitle-expertise:before {
@@ -345,6 +345,7 @@
 		-ms-flex-pack: justify;
 		justify-content: space-between;
 		min-height: 500px;
+		margin: 20px 0;
 }
 
 .item-expertise {
@@ -368,8 +369,9 @@
 .wraper-item .fa {
 		font-size: 50px;
 		margin-bottom: 32px;
-		background: -webkit-gradient( linear, right top, left top, from(rgb(74,163,204)), to(rgb(0,224,208)));
-		background: linear-gradient( to left, rgb(74,163,204) 0%, rgb(0,224,208));
+		background: -webkit-gradient(linear, right top, left top, from(rgb(74,163,204)), to(rgb(0,224,208)));
+		background: -ms-linear-gradient( to left, rgb(74,163,204) 0%, rgb(0,224,208) 100%);
+		background: linear-gradient( to left, rgb(74,163,204) 0%, rgb(0,224,208) 100%);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 }
@@ -406,7 +408,7 @@
 
 .title-our-team {
 		color: #ffffff;
-		margin-bottom: 16px;
+		margin-bottom: 26px;
 }
 
 .subtitle-our-team {
@@ -415,7 +417,7 @@
 		padding-bottom: 21px;
 		position: relative;
 		letter-spacing: 1px;
-		margin-bottom: 47px;
+		margin-bottom: 27px;
 }
 
 .subtitle-our-team:before {
