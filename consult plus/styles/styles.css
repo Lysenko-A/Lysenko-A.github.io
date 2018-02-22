@@ -393,7 +393,7 @@ h1, h2, h3, h4 {
 .business-boosting {
 		background: #565d5d;
 		padding: 18px 23px 18px 36px;
-		max-width: 940px;
+		max-width: 100%;
 		margin: 28px auto 0;
 }
 
