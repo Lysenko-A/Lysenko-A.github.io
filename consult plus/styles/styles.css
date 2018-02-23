@@ -600,6 +600,10 @@ h1, h2, h3, h4 {
 		display: none;
 }
 
+a:focus {
+		outline: none;
+}
+
 .owl-theme .owl-controls .owl-page span{
 		width: 54px;
 		height: 54px;
