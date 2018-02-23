@@ -270,7 +270,7 @@ h1, h2, h3, h4 {
 }
 
 .slick-slide {
-		outline: none;
+		outline: none!important;
 }
 
 
@@ -598,10 +598,6 @@ h1, h2, h3, h4 {
 
 .owl-buttons{
 		display: none;
-}
-
-.slick-initialized .slick-slide a:focus {
-		outline: none;
 }
 
 .owl-theme .owl-controls .owl-page span{
